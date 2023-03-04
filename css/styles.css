@@ -19,7 +19,7 @@ header a {
     text-decoration: none;
 }
 
-.pizzaRecept {
+.allRecipes {
     list-style: none;
     color: white;
     text-align: center;
@@ -28,12 +28,12 @@ header a {
     color: white;
     font-size: 18px;
 }
-.pizzaRecept a {
+.allRecipes a {
     color: aliceblue;
     text-decoration: none;
 }
 
-.pizzaRecept a:hover {
+.allRecipes a:hover {
     font-size: 25px;
     color: black;
 }
@@ -44,4 +44,6 @@ footer {
     position: absolute;
     bottom: 0;
     width: 100%;
+    background-color: orange; 
+    font-size: 10px;
 }
