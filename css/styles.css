@@ -20,6 +20,9 @@ header {
     color: white;
    text-align: center;
     padding: 1.5em;
+    background-color: green;
+    color: white;
+    font-size: 18px;
 }
 .pizzaRecept a {
     color: aliceblue;
