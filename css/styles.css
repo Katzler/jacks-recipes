@@ -1,14 +1,27 @@
+
+
 body {
+    background-color:#DFE0E6;
     font-family: sans-serif;
-    margin: 0;
-    padding: 0;
+    margin: 0em;
+    padding: 0em;
 }
 
+.headerSection {
+    margin: 0 auto;
+    max-width: 800px;
+
+}
+
+.todoSection {
+    margin: 0 auto;
+    max-width: 800px;
+  }
+  
 header {
     display: flex;
     justify-content: center;
-    text-align: center;
-    background-color:darkred;
+    background-color:#D13E37;
     color: white;
     font-size: 32px;
     font-weight: lighter;
@@ -24,7 +37,7 @@ header a {
     color: white;
     text-align: center;
     padding: 1.5em;
-    background-color: green;
+    background-color:#009C73;
     color: white;
     font-size: 18px;
 }
@@ -35,7 +48,7 @@ header a {
 
 .allRecipes a:hover {
     font-size: 25px;
-    color: black;
+    color: #FCBF0D;
 }
 
 footer {
@@ -44,6 +57,6 @@ footer {
     position: absolute;
     bottom: 0;
     width: 100%;
-    background-color: orange; 
+    background-color: #FCBF0D; 
     font-size: 10px;
 }
